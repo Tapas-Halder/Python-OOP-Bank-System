@@ -1,5 +1,5 @@
 """
-created Bank System that help customers balance check , deposit , withrow 
+created Bank System that help customer check Balance , deposit , withdraw
 using python oops 
 """
 
@@ -16,12 +16,12 @@ class bank():
         self.__balance += self.deposit
         print("deposit : ",self.deposit)
 
-    def withrow(self,withrow):
-        self.withrow = withrow
-        self.__balance -= self.withrow
-        print("withrow : ",self.withrow)
+    def withdraw(self,withdraw):
+        self.withdraw = withdraw
+        self.__balance -= self.withdraw
+        print("withdraw : ",self.withdraw)
 
-#bank account discnary
+#bank accounts ID 
 account = {
     1:bank(5000),
     2:bank(7000),
@@ -38,7 +38,7 @@ my = account[id]
 while(1):
     print("1.balance" \
     "2.deposit" \
-    "3.withrow" \
+    "3.withdraw" \
     "4.exit")
 
     n = int(input("enter 1 to 4 as your choise : "))
@@ -50,7 +50,8 @@ while(1):
         my.deposit(a)
     elif n == 3:
         a = int(input("enter amount : "))
-        my.withrow(a)
+        my.withdraw(a)
     else:
         break
+
 
