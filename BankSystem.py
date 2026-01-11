@@ -1,6 +1,11 @@
 """
-created Bank System that help customer check Balance , deposit , withdraw
-using python oops 
+A simple command-line based Bank Management System built using Python and Object-Oriented Programming (OOP) concepts.
+🔹 Features
+Check account balance
+Deposit money
+Withdraw money
+Multiple bank accounts using dictionary
+Uses encapsulation (private balance)
 """
 
 #class and methods of bank
@@ -53,5 +58,6 @@ while(1):
         my.withdraw(a)
     else:
         break
+
 
 
