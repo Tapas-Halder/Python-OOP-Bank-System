@@ -31,7 +31,7 @@ A simple command-line based Bank Management System built using **Python** and **
 | 3          | ₹12000          |
 
 **🔹 Author**
-Krish Nandu Halder
+Tapas Halder
 BCA Student | Python Developer
 
 
