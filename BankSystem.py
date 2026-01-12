@@ -41,10 +41,10 @@ my = account[id]
 
 #system loop run
 while(1):
-    print("1.balance" \
-    "2.deposit" \
-    "3.withdraw" \
-    "4.exit")
+    print("1.balance " \
+    "2.deposit " \
+    "3.withdraw " \
+    "4.exit ")
 
     n = int(input("enter 1 to 4 as your choise : "))
 
